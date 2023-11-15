@@ -1,0 +1,50 @@
+/* Title */
+
+.title, .logo {
+    padding: 3em 0.3em 1em 2em;
+}
+
+.title {
+    p {
+        font-style: italic;
+        font-family: $fontspecial;
+        letter-spacing: 3px;
+        color: $hcolor;
+        text-decoration: none;
+        text-shadow: 1px 1px $font-alternative-color;
+    }
+    h1 {
+        font-family: $fontspecial;
+        font-size: 3.5em;
+        letter-spacing: 3px;
+        line-height: 1.2;
+        margin-top: 0;
+        color: $hcolor;
+        text-decoration: none;
+        margin-bottom: 0em;
+        font-weight: bold;
+        text-shadow: 1px 1px $font-alternative-color;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+
+/* responsiv maxbredd */
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    .title {
+        min-width: 50%;
+    }
+    .logo {
+        max-width: 30%;
+    }
+    .title h1 {
+        font-family: $fontspecial;
+        font-size: 2em;
+    }
+}

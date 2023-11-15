@@ -1,0 +1,36 @@
+/* Typografy */
+
+body {
+    line-height: 1.5rem;
+    width: 75%;
+    margin: auto;
+}
+
+p, td, th, li, dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.main {
+    p {
+        color: $font-alternative-color;
+        margin: 1.82rem;
+    }
+    h1 {
+        color: $font-alternative-color;
+        margin: 1.82rem;
+    }
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: $font-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $fontspecial;
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+

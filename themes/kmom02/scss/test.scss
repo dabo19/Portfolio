@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* Övninar från föreläsningar */
+/* Övninar från föreläsningar */
+
+div .first-box {
+    box-sizing: content-box;
+    width: 600px;
+    height: 100px;
+    background-color: black;
+}
+
+div .second-box {
+    box-sizing: content-box;
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
+
+div .third-box {
+    box-sizing: border-box;
+    width: 50vw;
+    height: 100px;
+    background-color: red;
+}
+
+div .fourth-box {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    background-color: green;
+}

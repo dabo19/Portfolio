@@ -1,0 +1,31 @@
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+    border-left: 1px solid #222;
+    border-right: 1px solid #222;
+    background-color: $background-color;
+    min-height: 4rem;
+}
+
+.footer p {
+    color: $hcolor;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+
+.footer .social {
+    font-size: 2rem;
+    margin: auto;
+}
+
+/* ändrar färg på ikoner */
+.fab {
+    color: $hcolor;
+    margin: 10px 5px;
+}
