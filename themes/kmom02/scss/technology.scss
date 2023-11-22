@@ -1,0 +1,46 @@
+/* technology.scss */
+
+.singletech {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.singletech{
+.techtitle {
+    align-self: flex-start;
+    width: 90%;
+    text-align: center;
+}
+
+.techlinks {
+    align-self: flex-start;
+    width: 20%;
+    text-align: right;
+}
+
+.techcontent {
+    align-self: flex-start;
+    width: 50%;
+    text-align: center;
+}
+}
+
+/* responsiv flex single technology*/
+@media screen and (max-width: 767px) {
+    .singletech{
+
+        .techtitle {
+            align-self: flex-start;
+            width: 90%;
+        }
+        .techlinks {
+            align-self: flex-start;
+            width: 90%;
+            text-align: center;
+        }
+        .techcontent {
+            align-self: flex-start;
+            width: 90%;
+        }
+    }
+}
