@@ -1,56 +1,74 @@
 /* technologies.scss */
 
-.landingpage {
-    display: grid;
-    gap: 1em 1em;
-    padding: 1em;
-    grid-template-columns: 1fr 1fr 1fr;
+    .landingpage { 
+        .box {
+            padding: 1em;
+        }
+        .box.css {
+        background-color: $grid-color-technologies;
+        grid-column: 1 / span 1;
+        }
+        .box.html {
+        background-color: $grid-color-technologies;
+        grid-column: 2 / span 2;
+        }
+        .box.javascript {
+        background-color: $grid-color-technologies;
+        grid-column: 1 / span 2;
+        }
+        .box.php {
+        background-color: $grid-color-technologies;
+        grid-column: 3 / span 1;
+        }
+        .box.python {
+        background-color: $grid-color-technologies;
+        grid-column: 1 / span 3;
+        }
+        .box.git {
+        background-color: $grid-color-technologies;
+        grid-column: 1 / span 1;
+        }
+        .box.sqlite {
+        background-color: $grid-color-technologies;
+        grid-column: 2 / span 2;
+        }
+    }
 
-}
+/* responsiv grid technologies, wide screens*/
+    @media screen and (min-width: 768px) {
 
-.landingpage h1 {
-    grid-column: span 3;
-    justify-self: center;
-    text-decoration: underline;
-}
-
-.landingpage { 
-    .box {
-        padding: 1em;
+        .landingpage {
+            display: grid;
+            gap: 1em 1em;
+            padding: 1em;
+            grid-template-columns: 1fr 1fr 1fr;
+    
+        }
+    
+        .landingpage h1 {
+            grid-column: span 3;
+            justify-self: center;
+            text-decoration: underline;
+        }
     }
-    .box.css {
-    background-color: $grid-color-technologies;
-    grid-column: 1 / span 1;
-    }
-    .box.html {
-    background-color: $grid-color-technologies;
-    grid-column: 2 / span 2;
-    }
-    .box.javascript {
-    background-color: $grid-color-technologies;
-    grid-column: 1 / span 2;
-    }
-    .box.php {
-    background-color: $grid-color-technologies;
-    grid-column: 3 / span 1;
-    }
-    .box.python {
-    background-color: $grid-color-technologies;
-    grid-column: 1 / span 3;
-    }
-    .box.git {
-    background-color: $grid-color-technologies;
-    grid-column: 1 / span 1;
-    }
-    .box.sqlite {
-    background-color: $grid-color-technologies;
-    grid-column: 2 / span 2;
-    }
-}
 
 
-/* responsiv grid technologies*/
+
+/* responsiv grid technologies, small screens*/
 @media screen and (max-width: 767px) {
+
+    .landingpage h1 {
+        justify-self: center;
+        text-decoration: underline;
+    }
+
+    .landingpage {
+        display: grid;
+        gap: 1em 1em;
+        padding: 1em;
+        grid-template-columns: 1fr;
+    
+    }
 
     .landingpage {
         h1 {

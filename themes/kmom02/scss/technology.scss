@@ -43,4 +43,9 @@
             width: 90%;
         }
     }
+
+    /* hide links on smaller screens */
+    .techlinks {
+        display: none;
+    }
 }
