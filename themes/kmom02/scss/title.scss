@@ -11,7 +11,7 @@
         letter-spacing: 3px;
         color: $hcolor;
         text-decoration: none;
-        text-shadow: 1px 1px $font-alternative-color;
+        text-shadow: 1px 1px $font-alternative-shadow;
     }
     h1 {
         font-family: $fontspecial;
@@ -23,7 +23,7 @@
         text-decoration: none;
         margin-bottom: 0em;
         font-weight: bold;
-        text-shadow: 1px 1px $font-alternative-color;
+        text-shadow: 1px 1px $font-alternative-shadow;
     }
     a {
         text-decoration: none;

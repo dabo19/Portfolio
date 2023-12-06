@@ -8,4 +8,10 @@ Social:
     - title: Link till Twitter.
       url: https://twitter.com/
       icon: fab fa-twitter
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

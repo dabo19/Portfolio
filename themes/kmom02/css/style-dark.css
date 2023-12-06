@@ -6463,7 +6463,7 @@ pre code {
 .header, .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(93, 128, 69);
+  background-color: #182A35;
 }
 
 .header {
@@ -6479,12 +6479,12 @@ pre code {
   border-top: 1px solid #222;
   border-left: 1px solid #222;
   border-right: 1px solid #222;
-  background-color: rgb(93, 128, 69);
+  background-color: #182A35;
   min-height: 4rem;
 }
 
 .footer p {
-  color: #d3d3d3;
+  color: rgb(233, 155, 53);
 }
 
 .footer a {
@@ -6498,12 +6498,12 @@ pre code {
 
 /* ändrar färg på ikoner */
 .fab {
-  color: #d3d3d3;
+  color: rgb(233, 155, 53);
   margin: 10px 5px;
 }
 
 .fas {
-  color: #d3d3d3;
+  color: rgb(233, 155, 53);
   margin: 10px 5px;
 }
 
@@ -6521,11 +6521,11 @@ p, td, th, li, dd {
 }
 
 .main p {
-  color: #333;
+  color: #d3d3d3;
   margin: 1.82rem;
 }
 .main h1 {
-  color: #333;
+  color: #d3d3d3;
   margin: 1.82rem;
 }
 .main h2 {
@@ -6540,7 +6540,7 @@ p, td, th, li, dd {
 
 * {
   font-family: "Roboto", sans-serif;
-  color: #242424;
+  color: #D3D3D3;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -6621,9 +6621,9 @@ div .fourth-box {
   font-style: italic;
   font-family: "Rowdies", sans-serif;
   letter-spacing: 3px;
-  color: #d3d3d3;
+  color: rgb(233, 155, 53);
   text-decoration: none;
-  text-shadow: 1px 1px #333;
+  text-shadow: 1px 1px #526875;
 }
 .title h1 {
   font-family: "Rowdies", sans-serif;
@@ -6631,11 +6631,11 @@ div .fourth-box {
   letter-spacing: 3px;
   line-height: 1.2;
   margin-top: 0;
-  color: #d3d3d3;
+  color: rgb(233, 155, 53);
   text-decoration: none;
   margin-bottom: 0em;
   font-weight: bold;
-  text-shadow: 1px 1px #333;
+  text-shadow: 1px 1px #526875;
 }
 .title a {
   text-decoration: none;
@@ -6673,6 +6673,12 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  filter: brightness(55%);
+  filter: opacity(0.6);
+}
+
+.logopic {
+  filter: opacity(0.5);
 }
 
 /* technologies.scss */
@@ -6680,31 +6686,31 @@ img {
   padding: 1em;
 }
 .landingpage .box.css {
-  background-color: rgb(233, 155, 53);
+  background-color: #182A35;
   grid-column: 1/span 1;
 }
 .landingpage .box.html {
-  background-color: rgb(233, 155, 53);
+  background-color: #182A35;
   grid-column: 2/span 2;
 }
 .landingpage .box.javascript {
-  background-color: rgb(233, 155, 53);
+  background-color: #182A35;
   grid-column: 1/span 2;
 }
 .landingpage .box.php {
-  background-color: rgb(233, 155, 53);
+  background-color: #182A35;
   grid-column: 3/span 1;
 }
 .landingpage .box.python {
-  background-color: rgb(233, 155, 53);
+  background-color: #182A35;
   grid-column: 1/span 3;
 }
 .landingpage .box.git {
-  background-color: rgb(233, 155, 53);
+  background-color: #182A35;
   grid-column: 1/span 1;
 }
 .landingpage .box.sqlite {
-  background-color: rgb(233, 155, 53);
+  background-color: #182A35;
   grid-column: 2/span 2;
 }
 
@@ -6826,7 +6832,7 @@ img {
 }
 
 .nav a, .nav-toggle {
-  color: #d3d3d3;
+  color: rgb(233, 155, 53);
   letter-spacing: 3px;
   font-size: 1.2em;
   font-weight: bold;
@@ -6868,11 +6874,11 @@ img {
   }
 }
 body {
-  background-color: #e7e5e5;
+  background-color: #8B7E6D;
 }
 
 .main {
-  background-color: rgba(149, 182, 127, 0.4);
+  background-color: #526875;
   border-left: 1px solid #222;
   border-right: 1px solid #222;
 }
