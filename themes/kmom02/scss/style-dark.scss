@@ -26,7 +26,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'img-dark';
 @import 'technologies';
 @import 'technology';
-
+@import 'gallery';
+@import 'report';
 @import 'mobile-menu';
 
 
@@ -39,7 +40,18 @@ body {
     background-color: $background-alternative-color;
     border-left: 1px solid #222;
     border-right: 1px solid #222;
+    max-width: 90rem;
 }
+code {
+    color: #182A35;
+    background-color: #D3D3D3;
+}
+pre {
+    background-color: #D3D3D3;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 
 
 

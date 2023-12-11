@@ -13,8 +13,8 @@ Analysis
 </div>
 
 <div class="box html">
-<h2>Load</h2>
-<a href="%base_url%?analysis/02_load">Read more about Load</a>
+<h2>Load time</h2>
+<a href="%base_url%?analysis/02_load">Read more about Load times</a>
 </div>
 
 <div class="box javascript">
