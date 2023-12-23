@@ -6473,6 +6473,10 @@ pre code {
   border-right: 1px solid #222;
 }
 
+div.nav a:hover {
+  background-color: #404D59;
+}
+
 /* Footer */
 .footer {
   display: flex;
@@ -6523,11 +6527,11 @@ p, td, th, li, dd {
 }
 
 .main p {
-  color: #d3d3d3;
+  color: #EBEBEB;
   margin: 1.82rem;
 }
 .main h1 {
-  color: #d3d3d3;
+  color: #EBEBEB;
   margin: 1.82rem;
 }
 .main h2 {
@@ -6542,7 +6546,7 @@ p, td, th, li, dd {
 
 * {
   font-family: "Roboto", sans-serif;
-  color: #D3D3D3;
+  color: #EBEBEB;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -6686,6 +6690,8 @@ img {
 /* technologies.scss */
 .landingpage .box {
   padding: 1em;
+  border: 1px solid rgb(233, 155, 53);
+  box-shadow: 10px 10px 5px 0px rgba(233, 155, 53, 0.4);
 }
 .landingpage .box.css {
   background-color: #182A35;
@@ -6837,6 +6843,13 @@ img {
   .gallery.title h1 {
     text-align: center;
   }
+  .galleryview {
+    /* gör att första bilden visas större */
+  }
+  .galleryview .gallery.pic1 {
+    grid-column: 1/span 2;
+    grid-row: 2/4;
+  }
 }
 /* small screens */
 @media screen and (max-width: 1199px) {
@@ -6938,7 +6951,7 @@ body {
 }
 
 .main {
-  background-color: #526875;
+  background-color: #404D59;
   border-left: 1px solid #222;
   border-right: 1px solid #222;
   max-width: 90rem;

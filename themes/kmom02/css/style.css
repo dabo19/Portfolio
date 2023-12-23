@@ -6473,6 +6473,10 @@ pre code {
   border-right: 1px solid #222;
 }
 
+div.nav a:hover {
+  background-color: rgba(149, 182, 127, 0.4);
+}
+
 /* Footer */
 .footer {
   display: flex;
@@ -6680,6 +6684,8 @@ img, embed, object, video {
 /* technologies.scss */
 .landingpage .box {
   padding: 1em;
+  border: 1px solid #242424;
+  box-shadow: 10px 10px 5px 0px rgba(36, 36, 36, 0.3);
 }
 .landingpage .box.css {
   background-color: rgb(233, 155, 53);
@@ -6830,6 +6836,13 @@ img, embed, object, video {
   }
   .gallery.title h1 {
     text-align: center;
+  }
+  .galleryview {
+    /* gör att första bilden visas större */
+  }
+  .galleryview .gallery.pic1 {
+    grid-column: 1/span 2;
+    grid-row: 2/4;
   }
 }
 /* small screens */
